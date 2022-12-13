@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Navidad</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="" class="nav__logo-img" />
+          Navidad
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#celebrate" class="nav__link">Celebra</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gift" class="nav__link">Regalos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">Novedades</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <img src="assets/img/nav-light.png" alt="" class="nav__img" />
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/home.png" alt="" class="home__img" />
+          <div class="home__data">
+            <h1 class="home__title">
+              Feliz Navidad <br />
+              y un próspero Año Nuevo!
+            </h1>
+            <p class="home__description">
+              Navidad y un nuevo año están por comenzar, nuestros mejores deseos
+              y éxitos.
+            </p>
+            <a href="#" class="button">Empieza ahora</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== GIVING ====================-->
+      <section class="giving section container">
+        <h2 class="section__title">
+          Empieza a regalar <br />
+          la Navidad
+        </h2>
+
+        <div class="giving__container grid">
+          <div class="giving__content">
+            <img src="assets/img/giving1.png" alt="" class="giving__img" />
+            <h3 class="giving__title">Regalos sorpresa</h3>
+            <p class="giving__description">Los mejores regalos que existen.</p>
+          </div>
+          <div class="giving__content">
+            <img src="assets/img/giving2.png" alt="" class="giving__img" />
+            <h3 class="giving__title">Adornos</h3>
+            <p class="giving__description">
+              Los accesorios más lindos para decorar.
+            </p>
+          </div>
+          <div class="giving__content">
+            <img src="assets/img/giving3.png" alt="" class="giving__img" />
+            <h3 class="giving__title">Mucho cariño</h3>
+            <p class="giving__description">
+              Regala una sensación que dura para siempre.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CELEBRATE ====================-->
+      <section class="celebrate section container" id="celebrate">
+        <div class="celebrate__container grid">
+          <div class="celebrate__data">
+            <h2 class="section__title celebrate__title">
+              Celebra con <br />
+              mucho amor
+            </h2>
+            <p class="celebrate__description">
+              En estas fiestas, celebra con mucho amor y paz, ofreciendo
+              bendiciones a nuestros allegados, amigos y vecinos, deseándoles
+              una fantástica Navidad.
+            </p>
+            <a href="#" class="button">Enviar buenos deseos</a>
+          </div>
+          <img src="assets/img/celebrate.png" alt="" class="celebrate__img" />
+        </div>
+      </section>
+
+      <!--==================== GIFT ====================-->
+      <section class="gift section container" id="gift">
+        <h2 class="section__title">Comparte un regalo</h2>
+        <div class="gift__container grid">
+          <article class="gift__card">
+            <img src="assets/img/gift1.png" alt="" class="gift__img" />
+            <i class="bx bx-heart gift__icon"></i>
+            <h3 class="gift__price">$15</h3>
+            <span class="gift__title">Pan de jengibre</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/gift2.png" alt="" class="gift__img" />
+            <i class="bx bx-heart gift__icon"></i>
+            <h3 class="gift__price">$22</h3>
+            <span class="gift__title">Sombrero de santa</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/gift3.png" alt="" class="gift__img" />
+            <i class="bx bx-heart gift__icon"></i>
+            <h3 class="gift__price">$48</h3>
+            <span class="gift__title">Arbolito de navidad</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/gift4.png" alt="" class="gift__img" />
+            <i class="bx bx-heart gift__icon"></i>
+            <h3 class="gift__price">$35</h3>
+            <span class="gift__title">Muñeco de nieve</span>
+          </article>
+
+          <article class="gift__card">
+            <img src="assets/img/gift5.png" alt="" class="gift__img" />
+            <i class="bx bx-heart gift__icon"></i>
+            <h3 class="gift__price">$12</h3>
+            <span class="gift__title">Bastón de caramelo</span>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section container" id="new">
+        <h2 class="section__title">Nuevos regalos</h2>
+        <div class="new__container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new1.png" alt="" class="new__img" />
+                <h3 class="new__price">$95</h3>
+                <span class="new__title">Reindeer</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new2.png" alt="" class="new__img" />
+                <h3 class="new__price">$20</h3>
+                <span class="new__title">Globo de nieve</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new3.png" alt="" class="new__img" />
+                <h3 class="new__price">$75</h3>
+                <span class="new__title">Trineo</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new4.png" alt="" class="new__img" />
+                <h3 class="new__price">$15</h3>
+                <span class="new__title">Corona navideña</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== MESSAGE ====================-->
+      <section class="message section container">
+        <div class="message__container grid">
+          <form action="" class="message__form">
+            <h2 class="message__title">
+              Envía buenos <br />
+              deseos!
+            </h2>
+            <input
+              type="text"
+              placeholder="Escribe tu mensaje"
+              class="message__input"
+            />
+            <button class="button message__button">Enviar mensaje</button>
+          </form>
+          <img src="assets/img/message.png" alt="" class="message__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo.png" alt="" class="footer__logo-img" />
+            Navidad
+          </a>
+          <p class="footer__description">
+            Esta Navidad reparte <br />
+            mucho amor
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Nuestros servicios</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Precios</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Descuentos</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Modo de envío</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Soporte</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">FAQs</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Centro de soporte</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Disponible en</h3>
+          <div class="footer__availables">
+            <img
+              src="assets/img/aviable1.png"
+              alt=""
+              class="footer__available-img"
+            />
+            <img
+              src="assets/img/aviable2.png"
+              alt=""
+              class="footer__available-img"
+            />
+          </div>
+        </div>
+        <img src="assets/img/footer1.png" alt="" class="footer__img1" />
+        <img src="assets/img/footer2.png" alt="" class="footer__img2" />
+      </div>
+      <span class="footer__copy">
+        &#169; Facundo. Todos los derechos reservados.
+      </span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
